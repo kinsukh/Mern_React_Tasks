@@ -1,0 +1,70 @@
+/* Apply a reset to remove default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set a background color and font styles for the body */
+  body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  /* Style the page title */
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Style the registration number */
+  h1:nth-of-type(2) {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  
+  /* Add a separator line */
+  hr {
+    margin: 20px 0;
+    border: 1px solid #ccc;
+  }
+  
+  /* Style the section title */
+  h2 {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  /* Style the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  /* Style table headers */
+  th {
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  /* Style table cells */
+  td {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  /* Style links inside the table */
+  a {
+    text-decoration: none;
+    color: #0078d4;
+  }
+  
+  /* Add hover effect to links */
+  a:hover {
+    text-decoration: underline;
+  }
+  
